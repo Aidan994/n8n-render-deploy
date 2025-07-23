@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: n8n-dental
+    env: docker
+    repo: https://github.com/YOUR_USERNAME/n8n-render-deploy
+    branch: main
+    dockerfilePath: ""
+    plan: free
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "adl7"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "Learncrab01."
+      - key: WEBHOOK_URL
+        value: "https://n8n-dental.onrender.com"
+      - key: N8N_HOST
+        value: "0.0.0.0"
+      - key: N8N_PORT
+        value: "5678"
