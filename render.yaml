@@ -12,7 +12,7 @@ services:
       - key: N8N_BASIC_AUTH_USER
         value: "adl7"
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: "Learncrab01."
+        value: "Chickennibble33"
       - key: WEBHOOK_URL
         value: "https://n8n-dental.onrender.com"
       - key: N8N_HOST
