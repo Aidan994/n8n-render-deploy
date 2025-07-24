@@ -10,7 +10,7 @@ services:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
-        value: "adl7"
+        value: "LemontZ23"
       - key: N8N_BASIC_AUTH_PASSWORD
         value: "Chickennibble33"
       - key: WEBHOOK_URL
